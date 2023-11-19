@@ -17,6 +17,7 @@ export default function Home() {
       <About/>
       <Content/>
       <Servises/>
+      <Footer/>
 
     </div>
    
