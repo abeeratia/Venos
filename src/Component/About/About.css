@@ -1,0 +1,21 @@
+.widthdiv{
+    width: 500px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+        top: -93px;
+}
+.borderr{
+    position: relative;
+    padding-left: 50px;
+}
+.borderr::before{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: -17px;
+    top: 18px;
+}

@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  direction: rtl;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  direction: rtl;
+}
+body {
+  font-size: 1.2rem;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.49);
+  font-size: 20px;
+  font-weight: 100;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Frank Ruhl Libre';
+
+}
+.container-fluid{
+  margin: 0px ;
+  padding: 0px;
+}
+.fontsizetitle{
+  font-size: 48px;
+}
+.bgfoot{
+  background-color:  #101B14;
 }
