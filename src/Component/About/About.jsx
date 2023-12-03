@@ -6,7 +6,9 @@ export default function About() {
     <div className="container-fluid  p-5 mt-5">
      <div className="row d-flex  ">
       <div className="col-6 d-flex justify-content-center ">
-        <img src={require('../../image/Rectangle 7.png')} className='w-50 ' alt="" />
+        <div>
+        <img src={require('../../image/Rectangle 7.png')} className='' alt="" />
+        </div>
       </div>
       <div className="col-6">
         <h3 className='fontsizetitle pt-5 fw-bolder  text-black '>افضل مواقع التصوير من ٢٠١٤</h3>

@@ -3,7 +3,6 @@ import './Home.css'
 import About from '../About/About'
 import Content from '../Content/Content'
 import Servises from '../Servises/Servises'
-import Footer from '../Footer/Footer'
 export default function Home() {
   return (
     <div className="container-fluid">
@@ -14,12 +13,10 @@ export default function Home() {
 
         </div>
       </div>
+    </div>
       <About/>
       <Content/>
       <Servises/>
-      <Footer/>
-
-    </div>
    
   
     

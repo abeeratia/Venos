@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
+  const [navbar, setNavbar] = useState(false);
+  const changebackground =()=>{
+    if (window.scrollY>= 80) {
+      setNavbar(true)
+      
+    }else{
+      setNavbar(false)
+    }
+  }
+  window.addEventListener('scroll',changebackground)
   return <>
   
-  <nav className="navbar navbar-expand-lg navbar-light pt-4  fixed-top">
+  <nav className={navbar? 'navbar bg-black  navbar-expand-lg navbar-light pt-4  fixed-top' : 'navbar navbar-expand-lg navbar-light pt-4  fixed-top'}>
 
   <div className="container-fluid px-5">
   
